@@ -1,0 +1,131 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.logo{
+	width:100%;
+	/* max-width:1260px; */
+	/* max-height:766px; */
+	height:100vm;
+	background: url("LogofonD.png"); 
+	background-size:cover;
+	margin:0;
+	/* padding-right:7%; */
+	text-align:center;
+}
+
+.logoimg{
+	background-image:url("LogoR.png");
+	background-size:100% 100%;
+	/* min-width:60px; */
+}
+
+.left{
+	margin: 6% 5%;
+	transition: 0.5s ease-in-out;
+}
+
+.left:hover{
+	color:#FF8484;
+	border-bottom: 1px solid #FF8484;
+	transition: 0.5s ease-in-out;
+	cursor:pointer;
+	
+}
+
+.hr1{
+	width:100px;
+}
+
+.white{color:white;}
+.red{color:#FF8484;}
+.grey{color:#868686;}
+
+.menu {
+	/* margin: 0 7%; */
+	display:flex;
+	justify-content:flex-end;
+	align-items: center;
+}
+
+.down{
+	margin-right:auto;
+	
+}
+
+.maintext{
+	display:flex;
+	justify-content:space-between;
+	align-items: flex-start;
+	margin: 17% 13% 0 13%;
+}
+
+.text1{
+	display:flex;
+	flex-direction:column; 
+	align-items: center;
+	justify-content:center;
+	
+}
+
+.text1S{
+	font:2.9em  Geneva, Arial, Helvetica, sans-serif;
+	font-weight:600;
+}
+
+.text2S{
+	font:1.2em  Geneva, Arial, Helvetica, sans-serif;
+	margin-top:2%;
+}
+
+.rectangle{
+	width:9%;
+	height:.5vh;
+	background:#4f4d4d;
+	margin:2.5% 0 ;
+}
+
+.redkn{
+	border-radius:5%;
+	border:2px solid #FF8484;
+	margin:10% 0 ;
+	padding:1% 3%;
+	font:1.2em  Geneva, Arial, Helvetica, sans-serif;
+}
+
+.down{
+	margin-bottom:2%;
+}
+
+.articl1{
+	text-align:center;
+	margin-top:5%;
+	
+}
+
+.said1{
+	
+	margin:0 auto;
+	border-bottom: 1px solid #868686;
+	width:30%;
+	font:2em  Geneva, Arial, Helvetica, sans-serif;
+}
+
+.said2{
+	margin:1% auto;
+	width:45%;
+	font:1em  Geneva, Arial, Helvetica, sans-serif;
+}
+
+.zag{
+	font:1.5em  Geneva, Arial, Helvetica, sans-serif;
+	
+}
+
+.logpic{
+	
+}
+
+.five{margin-top:5%;}
+.two{margin-top:2%;}
